@@ -1,0 +1,13 @@
+aiogram~=2.18
+aioredis<2.0
+environs~=9.0
+SQLAlchemy==1.4.44
+aiogram_broadcaster 
+surrogates
+gspread
+apscheduler
+fastapi~=0.103.1 
+pydantic~=2.3.0
+httpx
+psycopg2-binary
+tgbot
