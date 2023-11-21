@@ -1,3 +1,1 @@
-Ссылка на тг бота https://t.me/train_hw_bot
-
-# homework2
+Ссылка на тг бота t.me/homework2123bot
