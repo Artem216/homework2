@@ -11,7 +11,7 @@ from src.config import load_config
 from src.handlers.user import register_user
 # from src.middlewares.environment import EnvironmentMiddleware
 
-# from tgbot.db import Base, engine
+from src.db import Base, engine
 
 # from tgbot.services import credentials, client, sheet 
 
@@ -59,7 +59,7 @@ async def main():
 
 if __name__ == '__main__':
     try:
-        # Base.metadata.create_all(engine)
+        Base.metadata.create_all(engine)
         asyncio.run(main())
     except (KeyboardInterrupt, SystemExit):
         logger.error("Bot stopped!")
